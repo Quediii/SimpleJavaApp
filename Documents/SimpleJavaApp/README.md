@@ -4,10 +4,9 @@ Prosta aplikacja REST w Javie z użyciem wbudowanego serwera HTTP. Projekt zawie
 
 Uruchomienie lokalne
 
-```bash
-mvn compile
+javac -d target/classes src/main/java/app/Main.java
+
 java -cp target/classes app.Main
-```
 
 Aplikacja będzie dostępna na `http://localhost:8080/`.
 
